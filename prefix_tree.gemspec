@@ -1,5 +1,5 @@
 # gem for prefix tree
-require File.expand_path('lib/prefix_tree_gem/version', __dir__)
+require File.expand_path('lib/prefix_tree/version', __dir__)
 
 Gem::Specification.new do |tree|
 
