@@ -9,12 +9,16 @@ Gem::Specification.new do |tree|
   tree.email = 'tpanchulidze@unisens.ge'
   tree.summary = 'prefix tree'
   tree.description = 'prefix tree algorithm'
-  tree.homepage = ''
+  tree.homepage = 'https://github.com/TPANCHULIDZE/prefix_tree.git'
   tree.license = 'MIT'
   tree.platform = Gem::Platform::RUBY
   tree.required_ruby_version = '>= 2.5.0'
 
-  spec.files = Dir[]
+  spec.files = Dir['README.md', 'LICENSE',
+                 'CHANGELOG.md', 'lib/**/*.rb',
+                 'lib/**/*.rake',
+                 'prefix_tree_gem.gemspec', '.github/*.md',
+                 'Gemfile', 'Rakefile']
 
   spec.extra_rdoc_files = ['README.md']
 
